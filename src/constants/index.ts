@@ -15,7 +15,7 @@ export const BASES_TO_CHECK_TRADES_AGAINST: { readonly [chainId in ChainId]: Tok
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  [ChainId.SIRIUSNET]:[WETH[ChainId.SIRIUSNET]]
+  [ChainId.SIRIUSNET]: [WETH[ChainId.SIRIUSNET]]
 }
 
 // used for display in the default list when adding liquidity
